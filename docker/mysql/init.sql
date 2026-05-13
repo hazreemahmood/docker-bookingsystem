@@ -1,0 +1,3 @@
+-- Laravel owns schema creation and seed data through migrations and seeders.
+-- Keep this file intentionally empty so MySQL initialization does not race
+-- against `php artisan migrate`.
