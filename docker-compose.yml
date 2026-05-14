@@ -32,8 +32,6 @@ services:
       - DB_CONNECTION=mysql
       - APP_NAME=BookingSystem
       - APP_ENV=local
-      - APP_KEY=base64:V3HpWTGP1Cvcjkrp8ft2mORW6+9SBRsNikZtrj6O02E=
-      - APP_DEBUG=true
     depends_on:
       - mysql
     networks:
